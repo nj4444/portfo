@@ -29,9 +29,13 @@ import linkk from "./linkk.svg";
 import blockchain from "./blockchain.svg";
 import devops from "./devops.svg";
 import codeman from "./codeman.svg";
+import fullstack from "./fullstack.svg";
+import hero3 from "./hero3.webp"
 
 
 export {
+  hero3,
+  fullstack,
   codeman,
   devops,
   blockchain,
