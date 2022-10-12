@@ -30,10 +30,13 @@ import blockchain from "./blockchain.svg";
 import devops from "./devops.svg";
 import codeman from "./codeman.svg";
 import fullstack from "./fullstack.svg";
-import hero3 from "./hero3.webp"
+import hero3 from "./hero3.webp";
+import hero4 from "./hero4.png";
+
 
 
 export {
+  hero4,
   hero3,
   fullstack,
   codeman,

@@ -1,6 +1,8 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { hero4} from "../assets";
+
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -35,7 +37,7 @@ const Business = () =>  (
     </div>
 
     <div id="hero4" className={`${layout.sectionInfo} `}>
-      <img src="src/assets/hero4.png" alt="" />
+      <img src={hero4} alt="" />
     </div>
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (
