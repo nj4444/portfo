@@ -200,10 +200,12 @@ nav {
   margin-right: 1rem;
 }
 .bg-navBar > .bg-navBar-mb{
-  width: 30%;
+  margin-top: 10px;
+  border-radius: 20px;
+  width: 50%;
   
-  background-color: rgba(37, 36, 37, 0.8);
-  backdrop-filter: blur(22px);
+  background-color: rgba(51, 52, 54, 0.3);
+  backdrop-filter: blur(18px);
 }
 .divider-white{
   border-bottom: 1px solid white;

@@ -9,7 +9,7 @@ import { fullstack, hero3 } from "../assets";
 const Hero = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} `}>
-      <div className={`flex-2 ${styles.flexStart} flex-col xl:px-0 sm:px-3 px-6 py-6 `}>
+      <div className={`flex-2 ${styles.flexStart} flex-col xl:px-0 sm:px-9 px-0 py-6 `}>
         <div className="flex flex-row items-center py-[4px] px-10 bg-discount-gradient rounded-[10px] mb-4">
           <img src={fullstack} alt="discount" className="w-[28px] h-[28px]" />
           <p className={`${styles.paragraph} ml-4 py-2`}>
